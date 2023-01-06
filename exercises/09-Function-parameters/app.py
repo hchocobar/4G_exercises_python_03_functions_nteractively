@@ -1,6 +1,7 @@
 # Your code goes here:
-def render_person(param):
-    return param
+def render_person(name, birthdate, color_eyes, age, genere):
+    leyend = name + ' is a ' + str(age) + ' years old ' + genere + ' born in ' + birthdate + ' with ' + color_eyes + ' eyes'
+    return leyend
 
 
 # Do not edit below this line
